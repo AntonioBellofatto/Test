@@ -12,4 +12,13 @@ package projectworkgruppo1.mavenproject1;
 public class Test {
     
     private String cia;
+
+    public Test(String cia) {
+        this.cia = cia;
+    }
+    
+    @Override
+    public String toString(){
+        return cia;
+    }
 }
