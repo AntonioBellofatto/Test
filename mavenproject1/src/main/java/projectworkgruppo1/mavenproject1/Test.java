@@ -17,6 +17,10 @@ public class Test {
         this.cia = cia;
     }
     
+    public String get(){
+        return cia;
+    }
+    
     @Override
     public String toString(){
         return cia;
